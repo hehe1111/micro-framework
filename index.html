@@ -63,7 +63,7 @@
       // 全局 document 委托事件
       document.onclick = function (e) {
         console.log("document.onclick target: ", e.target);
-        console.log("document.onclick current target: ", e.target);
+        console.log("document.onclick current target: ", e.currentTarget);
       };
 
       class CustomElement extends HTMLElement {
